@@ -1,34 +1,3 @@
-<?php
-
-    try
-    {
-        $bdd = new PDO('mysql:host=localhost;dbname=test;charset=utf8','root','');
-    
-    }
-    catch(Exception $e)
-    {
-        die('Erreur : ' . $e->getMessage());
-    }
-
-
-
-    
-    // Check if the form is submitted
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        // Retrieve username and password from the form
-        $username = $_POST["username"];
-        $password = $_POST["password"];
-
-        // You can add your authentication logic here (e.g., check against a database)
-
-        // For demonstration purposes, I'm just echoing the entered values
-        echo "Username: $username<br>";
-        echo "Password: $password<br>";
-
-        // You can redirect the user or perform other actions after authentication
-    }
-?>
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -41,6 +10,8 @@
 </head>
 <body>
     <header>
+        <button id="login-btn">Connexion</button>
+        
         <nav>
             <ul>
                 <li><a href="#">Accueil</a></li>
@@ -50,8 +21,6 @@
                 <li><a href="#">Boutique</a></li>
             </ul>
         </nav>
-        <button id="login-btn">Connexion</button>
-
     </header>
 
     <main>

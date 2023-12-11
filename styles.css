@@ -9,10 +9,10 @@ header {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    margin: -8px;
-    padding: 10px 0px 127px 11px;
+    margin: -18px;
+    padding: 77px 0px 42px 0px;
     max-height: 380px;
-    height: 265px;
+    height: 165px;
     max-width: 100%;
     text-align: center;
 }
@@ -23,7 +23,10 @@ header h1 {
 
 nav ul {
     list-style: none;
-    padding: 0;
+    list-style-image: none;
+  padding: 143px;
+  color: #fff;
+  font-size: 32px;
 }
 
 nav li {
@@ -60,7 +63,7 @@ nav a {
     text-align: center;
     margin: 70px 10px 5px auto;
     cursor: pointer;
-    top: -90px;
+    top: -51px;
     right: 10px;
     transition: background-color 0.1s;
 }
@@ -84,6 +87,7 @@ nav a {
     height: 600px;
     max-width: 100%;
     text-align: center;
+    padding: 221px;
 }
 
 
