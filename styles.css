@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    color: #45a049;
 }
 
 header {
@@ -13,25 +14,33 @@ header {
     padding: 77px 0px 42px 0px;
     max-height: 380px;
     height: 165px;
-    max-width: 100%;
     text-align: center;
 }
 
 header h1 {
-    margin: 0;
+    margin: 20px;
 }
 
 nav ul {
     list-style: none;
     list-style-image: none;
-  padding: 143px;
-  color: #fff;
-  font-size: 32px;
+    padding: 17px;
+    justify-content: center;
+    background-color: #c07300;
+    font-size: 55px;
+    height: 25px;
+    width: 100%;
+    border: #8b1919;
+    line-height: 3px;
+    text-align: center;
+    margin-top: 89px;
 }
 
 nav li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 38px;
+    font-size: 25px;
+    padding: 35px;
 }
 
 nav a {
@@ -48,6 +57,7 @@ nav a {
     margin: 0;
     padding: 0;
     height: 100vh;
+    text-decoration: none;
 }
 
 #login-btn {
@@ -63,8 +73,8 @@ nav a {
     text-align: center;
     margin: 70px 10px 5px auto;
     cursor: pointer;
-    top: -51px;
-    right: 10px;
+    top: -115px;
+    right: 25px;
     transition: background-color 0.1s;
 }
 
@@ -73,24 +83,20 @@ nav a {
             box-shadow: 0px 2px 25px rgba(168, 255, 151, 0.733);
             color: #0b3f12;
         }
-
         
 .hero {
     background-image: url('./img/Bg_header0001.jpg');
     background-size: contain;
     color: #fff;
-    background-position: center; /* Centre l'image */
-    background-repeat: no-repeat; /* Évite la répétition de l'image*/ 
-    margin: 10px;
-    padding: 5px;
-    max-height:700px;
-    height: 600px;
-    max-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 80px;
+    padding: 325px;
+    max-height: 248px;
+    height: 90px;
+    max-width: 30%;
     text-align: center;
-    padding: 221px;
 }
-
-
 
 .cta-button {
     display: inline-block;
