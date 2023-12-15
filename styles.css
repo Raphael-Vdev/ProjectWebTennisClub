@@ -75,13 +75,17 @@ nav a {
     cursor: pointer;
     top: -115px;
     right: 25px;
-    transition: background-color 0.1s;
+    text-decoration: none;
+    transition:
+    transform 0.15s ease-out, 
+    color 0.95s ease-out,
+    background-color 0.15s ease-out;
 }
 
         #login-btn:hover {
             background-color: #45a049;
             box-shadow: 0px 2px 25px rgba(168, 255, 151, 0.733);
-            color: #0b3f12;
+            color: #ffffff;
         }
         
 .hero {
@@ -125,3 +129,51 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+*{
+  box-sizing: border-box;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body {
+font-family: "Roboto","Arial",sans-serif;
+  color: #000;
+  line-height: normal;
+}
+
+#backtotop {
+    background: url(./img/backtotop.png) no-repeat center center;
+    border: 0;
+    bottom: 20px;
+    cursor: pointer;
+    display: none;
+    height: 70px;
+    position: fixed;
+    right: 20px;
+    text-indent: -9999px;
+    width: 70px;
+    z-index: 1;
+  }
+
+  .nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+  ol, ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  #le_bouton {
+    position: fixed;
+    top: **px;
+    left: **px;
+ }
