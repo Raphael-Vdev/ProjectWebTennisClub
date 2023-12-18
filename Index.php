@@ -43,31 +43,85 @@
                 <p>Description de l'actualité 2</p>
             </article>
         </section>
+        <div class="PartenaireOfficiel">
+             <img src="./img/icon/Logo0028.png"/><img src="./img/icon/Logo0029.png">
+             <img src="./img/icon/Logo0032.png"/>
+             <div class="title-Partenaire">Nos partenaires principaux : </div>
+        </div>
     </main>
 
     <footer>
-    <div class="container-fluid">
-              <div class="row">
-            <section id="block-menu-menu-r-seaux-sociaux" class="block block-menu col-xs-12-dfdfdfdfd col-sm-6 col-md-3 col-xs-12 col-sm-6 col-md-4">
+          <div class="container-Main">
+          </div> <br/>
+        </div>
 
+          <div class="FollowUs">
+            <div class="container-follow">Nous suivre</div>
+
+            </div>
+
+          <div class="Juridique">
+          <div class="container-Juridique">
+              <ul class="menu nav">
+                <li class="ExCertificatMedic"><span class="nolink" tabindex="0">Juridique</span><ul class="menu nav"><li class="first leaf menu-mlid-3671"><a href="https://tenup.fft.fr/sites/default/files/actency_online_license/modele_certificat_medical.pdf" target="_blank">Exemple de certificat médical</a></li>
+                <li class="leaf menu-mlid-3672"><a href="/mentions-legales">Mentions légales et CGU</a></li>
+                <li class="leaf menu-mlid-3674"><a href="/protection-des-donnees">Protection des données</a></li>
+                <li class="leaf menu-mlid-3675"><a href="/Garanties-assurances">Garanties d'assurances</a></li>
+                <li class="leaf active menu-mlid-4477 privacyCenter active"><a href="/" class="active">Gestion des cookies</a></li>
+                <li class="last leaf menu-mlid-4478"><a href="/politique-cookies">Politique cookies</a></li>
+              </ul>
+            </li><span class="clear-sm"></span>
+                <li class=""><span class="nolink" tabindex="0">Nos sites</span><ul class="menu nav"><li class="first leaf menu-mlid-4060"><a href="http://projettennis/">Application IOS</a></li>
+                <li class=""><a href="https://play.google.com/store/apps/details?id=com.fft.tenup&amp;hl=fr">Application Android</a></li>
+                <li class="leaf menu-mlid-3677"><a href="http://projettennis/" target="_blank">FFT.fr</a></li>
+                <li class="leaf menu-mlid-4144"><a href="http://projettennis/">Proshop FFT</a></li>
+                <li class="Mon_arbitrage"><a href="http://projettennis/" target="_blank">Mon espace arbitrage</a></li>
+              </ul></li>
+
+                <li class="last expanded menu-mlid-3682 col-xs-12 col-sm-6 col-md-3"><span class="nolink footerMenuMobileDropDown-processed" tabindex="0">Aide</span><ul class="menu nav"><li class="first leaf menu-mlid-3683"><a href="https://fft.jotform.com/232504643274857?sujet=divers">Nous contacter </a></li>
+                <li class="last leaf menu-mlid-3684"><a href="/FAQ" title="Foire aux questions">FAQ</a></li>
+              </ul></li>
+              </ul>
+
+            </div>
+
+          <div class="OthersWebSite">
+            <div class="container-OtherSite">
+
+          </div>
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+
+              <div class="row">
         <h2 class="block-title">Nous suivre</h2>
     
-  <ul class="menu nav"><li class="first leaf menu-link-facebook"><a href="https://www.facebook.com/FFTennis" title="Nous suivre sur Facebook" target="_blank" class="fa fa-facebook socialMenuFooter-processed" onclick="
-      var url = jQuery('ol.breadcrumb');
-      if(url.length == 0) {
-        if(jQuery('.menu-name').text() == '') {
-          var chap2 = 'homepage_deconecte';
-        } else {
-          var chap2 = 'homepage_connecte';
-        }
-      } else {
-        var chap2 = url.text().toString().trim().replace(/\s/g,'_');
-      }
-      tc_events_19(this,'clic',{
-      'event_type':'exit',
-      'event_chapter1':'footer',
-      'event_chapter2': chap2,
-      'event_name':'facebook'})"><span class="sr-only">facebook</span></a></li>
+  <ul class="menu nav">
+      <span class="sr-only">facebook</span></a></li>
 <li class="leaf menu-link-twitter"><a href="https://twitter.com/FFTennis" title="Nous suivre sur Twitter" target="_blank" class="fa fa-twitter socialMenuFooter-processed" onclick="
       var url = jQuery('ol.breadcrumb');
       if(url.length == 0) {
@@ -144,10 +198,8 @@
 
 <button id="backtotop" class="jquery-once-2-processed" style="display: inline-block;">Back to top</button>
 
-    <input type="button" id="le_bouton" value="backtotop" OnClick="window.location.href="Index.php">
-
-              </div>
-          </div>
+    <input type="button" id="le_bouton" value="backtotop" OnClick="window.location.href="Index.php"> -->
+  
         <p>&copy; 2023 - SpeedBall Tennis Club. Tous droits réservés.</p>
     </footer>
 </body>

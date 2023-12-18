@@ -10,16 +10,12 @@ header {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    margin: -18px;
+    margin: -19px;
     padding: 77px 0px 42px 0px;
-    max-height: 380px;
-    height: 165px;
+    max-height: 150px;
+    height: 100px;
     text-align: center;
-}
-
-header h1 {
-    margin: 20px;
-}
+  }
 
 nav ul {
     list-style: none;
@@ -33,7 +29,7 @@ nav ul {
     border: #8b1919;
     line-height: 3px;
     text-align: center;
-    margin-top: 89px;
+    margin-top: 24px;
 }
 
 nav li {
@@ -97,7 +93,7 @@ nav a {
     margin: 80px;
     padding: 325px;
     max-height: 248px;
-    height: 90px;
+    height: 2px;
     max-width: 30%;
     text-align: center;
 }
@@ -124,11 +120,95 @@ article img {
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #111a36;
+    color: #060a16;
     text-align: center;
     padding: 10px;
 }
+
+.PartenaireOfficiel {
+    background: #ffffff;
+    padding: 48px 0;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    height: 80px;
+    justify-content: center;
+}
+    .title-Partenaire{
+        margin-right: 46rem;
+        color:  #ebff00;
+        display: flex;
+        position: absolute;
+    }
+
+.FollowUs{
+    background: #060a16;
+    padding: 48px 0;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    height: 90px;
+    justify-content: center;
+    max-height: None;
+    max-width: 300px;
+}
+    .follow-title{
+        color:  #ebff00;
+    }
+
+.juridique{
+    background: #000000;
+    padding: 48px 0;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    height: 90px;
+    justify-content: center;
+    max-height: None;
+    max-width: 300px;
+}
+    .juridique-title{
+        color:  #ebff00;
+    }
+
+.OthersWebSite{
+    background: #000000;
+    padding: 48px 0;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    height: 90px;
+    justify-content: center;
+}
+.OthersWebSite-title{
+    color:  #ebff00;
+}
+
+img{
+    display: flex;
+    position: relative;
+    height: 120px;
+    width: 120px;
+    max-height: 120px;
+    max-width: 120px;
+}
+
+nav ul, li {
+    color:  #ebff00;
+}
+
+container-Juridique{
+    color:  #ebff00;
+}
+
+
+
+
+
+
+
+
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 *{
@@ -174,6 +254,6 @@ font-family: "Roboto","Arial",sans-serif;
   
   #le_bouton {
     position: fixed;
-    top: **px;
-    left: **px;
+    top: 00px;
+    left: 30px;
  }
