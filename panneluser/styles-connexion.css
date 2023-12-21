@@ -6,7 +6,7 @@ body {
     font-family: Arial, sans-serif;
 }
 .banner-container {
-    background-image: url('./img/bannerTennisclub361.jpg');
+    background-image: url('/img/bannerTennisclub361.jpg');
     background-size: cover;
     background-position: center;
     height: 300px;
@@ -23,7 +23,7 @@ body {
     color: #00000000;
 }
 .banner {
-    background-image: url('./img/SBTennis_banner.png');
+    background-image: url('/img/SBTennis_banner.png');
     background-size: cover;
     height: 200px;
     margin-top: -250px;
@@ -58,7 +58,6 @@ body {
     font-weight: bold;
     margin-top: 47px;
   }
-
 
 nav li {
     display: inline flow-root list-item;
@@ -121,40 +120,44 @@ p {
             color: #ffffff;
         }
         
-.hero {
-    background-image: url('./img/Bg_header0001.jpg');
-    background-size: contain;
-    color: #fff;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: 80px;
-    padding: 325px;
-    max-height: 248px;
-    height: 2px;
-    max-width: 30%;
-    text-align: center;
-}
 
-.cta-button {
-    display: inline-block;
-    background-color: #ff6600;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-}
+ /*   >>>>>>>>>>>>>>>>>>> Connexion page <<<<<<<<<<<<<  */
 
-.news {
-    margin-top: 30px;
-}
+ .user-panel{
+    height: 600px;
+    width: 1400px;
+    color: #ffffff;
+    background-color: #304736;
+    margin-right: 20px;
+ }
+ .news{
+    height: 50px;
+    width: 1400px;
+    background-color: #304736;
+ }
+ .login-form{
+    position: relative;
+    height: 50px;
+    width: 1400px;
+    color: #ffffff;
+    margin-left: 0px;
+ }
+ .user-content{
+    position: relative;
+    height: 200px;
+    width: 1400px;
+    color: #ffffff;
+    margin-left: 0px; 
+ }
+ section .login-form {
+    height: 50px;
+    width: 1400px;
+    color: #ffffff;
+    background-color: yellowgreen;
+ } 
 
-article {
-    margin-bottom: 20px;
-}
+ /*   >>>>>>>>>>>>>>>>>>> Connexion page <<<<<<<<<<<<<  */
 
-article img {
-    max-width: 100%;
-}
 
 footer {
     background-color: #111a36;
