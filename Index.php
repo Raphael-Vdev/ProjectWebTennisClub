@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="fr">
 
 <head>
@@ -15,7 +16,7 @@
     <div class="banner-container">
       <div class="banner-content">
         <h1>Speed'Ball Tennis Club</h1>
-        <button href="Connexion.php" title="Connexion" id="login-btn">Connexion</button>
+        <a href="Connexion.php" class="connexion"><button id="login-btn">Connexion</button></a>
         <div class="sidebar">
            <div class="banner"></div>
 
@@ -43,7 +44,7 @@
 
     <section class="news">
       <h2>Actualités récentes</h2>
-      <article>
+      <article class="texte-news">
         <img src="news1.jpg" alt="Nouvelle actualité">
         <h3>Titre de l'actualité 1</h3>
         <p>Description de l'actualité 1</p>
@@ -63,7 +64,7 @@
 
   <footer>
     <div class="container-Main">
-    </div> <br />
+    </div> <br/>
     </div>
 
     <div class="FollowUs">
@@ -94,7 +95,7 @@
             </ul>
           </li>
 
-          <li class="last expanded menu-mlid-3682 col-xs-12 col-sm-6 col-md-3"><span class="nolink footerMenuMobileDropDown-processed" tabindex="0">Aide</span>
+          <li ><span class="nolink footerMenuMobileDropDown-processed" tabindex="0">Aide</span>
             <ul class="menu nav">
               <li class="first leaf menu-mlid-3683"><a href="https://fft.jotform.com/232504643274857?sujet=divers">Nous contacter </a></li>
               <li class="last leaf menu-mlid-3684"><a href="/FAQ" title="Foire aux questions">FAQ</a></li>

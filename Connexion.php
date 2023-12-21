@@ -16,7 +16,7 @@
     <div class="banner-container">
       <div class="banner-content">
         <h1>Speed'Ball Tennis Club</h1>
-        <button href="Connexion.php" id="login-btn" class="loginbtn">Connexion</button>
+        <a href="Index.php" ><button id="login-btn">Connexion</button></a>
         <div class="sidebar">
            <div class="banner"></div>
 
