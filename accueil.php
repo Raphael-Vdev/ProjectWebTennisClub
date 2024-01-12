@@ -33,9 +33,11 @@ require_once ("template.php");
 
         <section class="news">
             <h2>Actualités récentes</h2>
-            <article class="texte-news">
-                <img src="news1.jpg" alt="Nouvelle actualité">
-                <h3>Titre de l'actualité 1</h3>
+            <article class="img-news1">
+                <div class="texte-news">
+                <img src="/img/img_02.jpg" alt="Nouvelle actualité">
+                </div>
+                <h3>Laura Jélaballe, nouvelle championne du tournoi !</h3>
                 <p>Description de l'actualité 1</p>
             </article>
             <article>

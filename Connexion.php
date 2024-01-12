@@ -36,12 +36,6 @@
   </header>
 
   <main>
-        <section class="hero2">
-            <!-- Section d'introduction -->
-        </section>
-
-        <section class="news">
-            <!-- Actualités récentes -->
         </section>
 
         <section class="user-panel">
