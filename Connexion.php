@@ -22,7 +22,7 @@
 
           <nav>
             <ul>
-            <li><a href="index.php" title="Accueil" class="sidebar-btn">Accueil</a></li>
+            <li><a href="Accueil.php" title="Accueil" class="sidebar-btn">Accueil</a></li>
               <li><a href="Connexion.php" title="Actualités" class="sidebar-btn">Actualités</a></li>
               <li><a href="#" title="Joueurs" class="sidebar-btn">Joueurs</a></li>
               <li><a href="#" title="Calendrier" class="sidebar-btn">Calendrier</a></li>

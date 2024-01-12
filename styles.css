@@ -1,7 +1,10 @@
-*{
+ *{
+    background-color: #243f1b67;
     margin: 0;
     padding: 0;
     text-decoration: none;
+    cursor: url(/img/icn-curs.ico), pointer;
+
 }
 body {
     font-family: Arial, sans-serif;
@@ -9,6 +12,31 @@ body {
 .connexion{
     text-decoration: none;
 }
+#login-btn {
+    display: block;
+    position: relative;
+    background-color: #267631;
+    box-shadow: 0px 2px 16px rgba(168, 255, 151, 0.864);
+    color: white;
+    font-size: 16px;
+    border: solid #fffb0030;
+    border-radius: 20px;
+    padding: 15px 20px;
+    text-align: left;
+    margin: 70px 10px 5px auto;
+    cursor: pointer;
+    top: -50px;
+    right: 20px;
+    transition:
+    transform 0.15s ease-out, 
+    color 0.95s ease-out,
+    background-color 0.15s ease-out;
+}
+        #login-btn:hover {
+            background-color: #45a049;
+            box-shadow: 0px 2px 25px rgba(168, 255, 151, 0.733);
+            color: #ffffff;
+        }
 .banner-container {
     background-image: url('./img/bannerTennisclub361.jpg');
     background-size: cover;
@@ -21,67 +49,73 @@ body {
     text-align: center;
 }
 .banner-content{
-    /* background-color: #728675; */
     height: 300px;
     width: 100%;
     color: #00000000;
 }
 .banner {
     background-image: url('./img/SBTennis_banner.png');
-    background-size: cover;
-    height: 200px;
-    margin-top: -250px;
+    background-size: contain;
+    height: 235px;
+    margin-top: -128px;
+    width: 64rem;
+    background-repeat: no-repeat;
 }
 .sidebar {
+    position: relative;
     background-color: #c07300;
     text-align: center;
     padding: 0px 0px;
-    padding: 17px;
+    padding: -10px;
     justify-content: center;
-    font-size: 60px;
-    height: 25px;
-    width: 1400px;
+    font-size: 191px;
+    height: 65px;
+    width: 100%;
     max-width: 100%;
     border: #000 solid;
-    border-width: 2px 0px 2px 0px;
-    line-height: 0px;
-    text-align: center;
-    margin-top: 134px;
-  }
-  .sidebar-btn {
-    background-color: #c07300;
-    color: #000000;
-    padding: 13px 13px 23px 13px;
-    margin: 0px 0px;
-    border: none;
-    border-radius: 0px;
-    text-align: center;
-    text-decoration: none;
-    display: flex;
-    font-size: 17px;
-    font-weight: bold;
+    border-width: 3px 0px 3px 0px;
+    line-height: -44px;
     margin-top: 47px;
   }
-
-.texte-news{
+  .sidebar-btn {
+    position: relative;
+    background-color: #c07300;
+    color: #000000;
+    margin: 0px 1px;
+    border: solid #ffd70000;
+    text-decoration: none;
     display: flex;
-    margin-right: 50px;
-    font-size: 25px;
+    font-size: 19px;
+    font-weight: bold;
+    cursor: pointer;
+    top: 0px;
   }
+nav ul{
+    height: 0px;
+    color: #ebff00;
+    top: -142px;
+}
 
 nav li {
     display: inline flow-root list-item;
     margin-right: 50px;
     font-size: 25px;
+    position: relative;
+    top: -138px;
 } 
 
 nav a {
     color: #fff;
     text-decoration: none;
 }
-
-.main {
+main {
     padding: 20px;
+    position: absolute;
+    background-color: #796dff;
+    height: 1300px;
+    width: 100%;
+    max-width: 100%;
+    top: 355px;
 }
 .button {
     background-color: #f2f2f2;
@@ -92,7 +126,6 @@ nav a {
     text-decoration: none;
 }
 
-
 h1 {
     font-size: 2.5em;
     margin-bottom: 10px;
@@ -102,50 +135,28 @@ p {
     font-size: 1.2em;
 }
 
-#login-btn {
-    display: block;
-    position: relative;
-    background-color: #267631;
-    box-shadow: 0px 2px 16px rgba(168, 255, 151, 0.864);
-    color: white;
-    font-size: 16px;
-    border: none;
-    border-radius: 6px;
-    padding: 15px 20px;
-    text-align: center;
-    margin: 70px 10px 5px auto;
-    cursor: pointer;
-    top: -95px;
-    right: 25px;
-    transition:
-    transform 0.15s ease-out, 
-    color 0.95s ease-out,
-    background-color 0.15s ease-out;
-}
-
-        #login-btn:hover {
-            background-color: #45a049;
-            box-shadow: 0px 2px 25px rgba(168, 255, 151, 0.733);
-            color: #ffffff;
-        }
-        
+.texte-news{
+  display: flex;
+  margin-right: 50px;
+  font-size: 25px;
+}       
 .hero {
     background-image: url('./img/Bg_header0001.jpg');
     background-size: contain;
     color: #fff;
     background-position: center;
     background-repeat: no-repeat;
-    margin: 80px;
-    padding: 325px;
+    margin: -7px;
+    padding: 401px;
     max-height: 248px;
-    height: 2px;
+    height: 0px;
     max-width: 30%;
     text-align: center;
 }
 
-.cta-button {
+.hero-button {
     display: inline-block;
-    background-color: #ff6600;
+    background-color: #368330;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
@@ -165,26 +176,43 @@ article img {
 }
 
 footer {
+    position: absolute;
+    display: flex;
     background-color: #111a36;
     color: #060a16;
     text-align: center;
+    height: 500px;
+    width: 100%;
     padding: 10px;
+    top: 1722px;
 }
 
 .PartenaireOfficiel {
     background: #ffffff;
     padding: 48px 0;
     display: flex;
-    position: relative;
+    position: absolute;
     flex-wrap: wrap;
     height: 80px;
+    width: 100%;
     justify-content: center;
+    margin: -10px;
 }
     .title-Partenaire{
-        margin-right: 46rem;
-        color:  #ebff00;
+        margin-right: 0%;
+        color: #111a36;
         display: flex;
-        position: absolute;
+        position: relative;
+        font-weight: bold;
+        font-size: 19px;
+    }
+    .container-main{
+        margin-right: 0%;
+        color: #111a36;
+        display: flex;
+        position: relative;
+        font-weight: bold;
+        font-size: 19px;
     }
 
 .FollowUs{
@@ -255,7 +283,7 @@ container-Juridique{
 
 
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ *
 *{
   box-sizing: border-box;
 }
@@ -303,7 +331,7 @@ font-family: "Roboto","Arial",sans-serif;
     left: 30px;
  }
 
- /*   >>>>>>>>>>>>>>>>>>> Connexion page <<<<<<<<<<<<<  */
+ /*   >>>>>>>>>>>>>>>>>>> Connexion page <<<<<<<<<<<<<  *
 
  .user-panel{
     height: 600px;
@@ -336,4 +364,4 @@ font-family: "Roboto","Arial",sans-serif;
     width: 1400px;
     color: #ffffff;
     background-color: yellowgreen;
- } 
+ }  */
